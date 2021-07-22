@@ -193,7 +193,7 @@ public class WorldUI extends World implements IView {
   private List<WorldImage> generateRowList() {
     List<WorldImage> rowList = new ArrayList<>();
     for (int i = 0; i < this.numGuessesAllowed; i++) {
-      rowList.add(this.drawCircleRow(this.updateOutlineList, this.updateColorList)); //drawrow
+      rowList.add(this.drawCircleRow(this.updateOutlineList, this.updateColorList)); 
     }
     return rowList;
   }
